@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "kie-ai": {
+      "command": "node",
+      "args": ["C:\\Users\\james\\Documents\\MyProjects\\imagegen\\kie-ai-mcp-server\\dist\\index.js"],
+      "env": {
+        "KIE_AI_API_KEY": ""
+      }
+    },
+    "kie-ai-facebook": {
+      "command": "npx",
+      "args": ["tsx", "C:\\Users\\james\\Documents\\MyProjects\\imagegen\\src\\index.ts"],
+      "env": {
+        "KIE_AI_API_KEY": ""
+      }
+    }
+  }
+}
